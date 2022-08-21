@@ -19,13 +19,13 @@ const Footer = () => {
             </div>
             {/* Aca colocando las redes sociales para que te contacten-Video: 57:15 */}
             <div className='sns-links'>
-                <a href='https://www.linkedin.com/in/jairo-rodrigo-manchay-perez-8170631b2/' target="_blank" rel='noreferrer'>
+                <a href='' target="_blank" rel='noreferrer'>
                     <i className='fab fa-linkedin linkedin'></i>
                 </a>
                 <a href='https://www.tiktok.com/' target="_blank" rel='noreferrer'>
                     <i className='fab fa-tiktok TikTok'></i>
                 </a>
-                <a href='https://github.com/JairoManchay' target="_blank" rel='noreferrer'>
+                <a href='' target="_blank" rel='noreferrer'>
                     <i className='fab fa-github GitHub' rel='noreferrer'></i>
                 </a>
             </div>
