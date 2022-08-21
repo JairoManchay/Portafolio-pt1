@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import imagenPresentacion from "../media/imagenPresentacion.png";
+import imagenPrueba from "../media/imagenPrueba.jpg";
 
 const About = () => {
   return (
@@ -8,18 +8,15 @@ const About = () => {
       <div className="about-desc">
         <h3>Les comento a lo que me dedico</h3>
         <p>
-          Soy técnico de Ingieniería de Software con Inteligencia Artificial,
-          egresado del instituto Técnico SENATI me desarrollo en el área de
-          Front-End, tengo conocimientos en desarrollo de sitios web y diseño de
-          interfaz de usuario, empleo conocimientos en HTML, CSS, JAVASCRIPT,
-          NODEJS, REACT y en base de datos como HeidiSQL, MySQL workbench;
-          conocimiento en oftilmatica como Word, Excel - avanzado; actualmente
-          vengo estudiando Inglés en el instituto "Lidem" en donde vengo
-          desarrollando mi nivel de intermedio-avanzado.
+          Eres artista (fotografía, dibujo, pintura, video, escultura…) o
+          artesano (ebanista, orfebre de dorado, dorador, alfarero, herrero,
+          paisajista…), trabajas en la arquitectura, tienes una profesión
+          digital (diseñador web, desarrollador web…), eres apasionado y muy
+          creativo.
         </p>
       </div>
       <div className="about-img">
-        <img src={imagenPresentacion} alt="about" />
+        <img src={imagenPrueba} alt="about" />
       </div>
     </div>
   );
